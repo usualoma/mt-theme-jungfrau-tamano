@@ -518,3 +518,17 @@ elements:
             allow_upload: 1
             max: ~
             min: ~
+  default_content_data:
+    component: ~
+    data:
+      ニュース:
+        test.html:
+          identifier: test.html
+          status: 2
+          data:
+            タイトル: テスト
+            本文:
+              value: |
+                <p style="color: red">テスト</p>
+              convert_breaks: richtext
+    importer: default_content_data
